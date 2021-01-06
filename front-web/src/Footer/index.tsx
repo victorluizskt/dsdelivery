@@ -7,12 +7,9 @@ function Footer() {
        <footer className="main-footer">
            App desenvolvido durante a 2ª ed. do evento Semana DevSuperior
            <div className="footer-icons">
-               <a href="https://www.youtube.com/channel/UCLb2-10lVX0-rMyGXC0iacA" target="_new"></a>
-               <a href="https://www.linkedin.com/in/victor-luiz-3913271a7/" target="_new"></a>
-               <a href="https://www.instagram.com/victiz_/" target="_new"></a>
-               <InstagramIcon />
-               <LinkedinIcon />
-               <YoutubeIcon />
+               <a href="https://www.youtube.com/channel/UCLb2-10lVX0-rMyGXC0iacA" target="_new"><YoutubeIcon /></a>
+               <a href="https://www.linkedin.com/in/victor-luiz-3913271a7/" target="_new"><LinkedinIcon /></a>
+               <a href="https://www.instagram.com/victiz_/" target="_new"><InstagramIcon /></a>
            </div>
        </footer>
     )
