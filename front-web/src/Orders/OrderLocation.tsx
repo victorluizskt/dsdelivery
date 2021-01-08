@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import AsyncSelect from 'react-select/async';
 import { fetchLocalMapBox } from '../api';
-import StepsHeader from './StepsHeader';
 import { OrderLocationdata } from './types';
 
 const initialPosition = {lat:-19.4734583, lng:-42.5409377}
